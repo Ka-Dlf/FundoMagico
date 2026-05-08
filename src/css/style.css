@@ -1,0 +1,130 @@
+body {
+  color: #ffffff;
+  background: url('../imagens/wvs.png') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: "Roboto Mono", monospace;
+  line-height: 1.5;
+  padding: 40px 24px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.header h1 {
+  margin-bottom: 16px;
+  font-size: 48px;
+  background: linear-gradient(to right, #8b5cf6, #000000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.subtitle {
+  color: #94a3b8;
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background: rgba(30, 41, 59, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 40px;
+  margin-bottom: 32px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 22px;
+  color: #e2e8f0;
+}
+
+.form-group textarea {
+  background-color: rgba(15, 23, 42, 0.6);
+  color: #f8fafc;
+  width: 100%;
+  min-height: 140px;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  font-size: 16px;
+  margin-bottom: 24px;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+}
+
+.form-group textarea:focus {
+  outline: none;
+  border-color: #38bdf8;
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2);
+}
+
+.form-group textarea::placeholder {
+  color: #64748b;
+}
+
+.form-group .btn-magic {
+  width: 100%;
+  padding: 18px 32px;
+  background: linear-gradient(to right, #8b5cf6, #000000);
+  color: #ffffff;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.form-group .btn-magic:hover {
+  background: linear-gradient(to right, #a78bfa, #111827);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(139, 92, 246, 0.4); 
+}
+
+.preview-card {
+  display: none;
+}
+
+.code-grid {
+  display: flex;
+  gap: 24px;
+}
+
+.code-card {
+  padding: 24px;
+  width: 50%;
+}
+
+.code-title {
+  font-size: 18px;
+  margin-bottom: 16px;
+  color: #cbd5e1;
+}
+
+.code-block {
+  background-color: #0f172a;
+  color: #34d399;
+  border-radius: 12px;
+  padding: 20px;
+  font-size: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
